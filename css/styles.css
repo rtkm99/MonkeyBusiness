@@ -1,0 +1,23 @@
+.select {
+    font-family: Arial;
+    color: black;
+}
+
+.all-apes {
+    text-align: center;
+    font-family: 'Bangers', cursive;
+}
+
+a {
+    color: #ff8400;
+}
+
+a:hover {
+    color: #bf5b00;
+    text-decoration: none;
+}
+
+a:after {
+    color: #bf5b00;
+    text-decoration: none;
+}
