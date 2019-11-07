@@ -1,3 +1,14 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: kevinmijwaart
+ * Date: 07/11/2019
+ * Time: 13:30
+ */
+include_once 'db.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
