@@ -5,8 +5,42 @@
  * Date: 07/11/2019
  * Time: 13:30
  */
+
 include_once 'db.php';
 
+// Opdracht 3
+//try {
+//foreach($dbh->query('SELECT * FROM aap') as $row) {
+//    print "<li>" .$row['soort'] ."</li>";
+//}
+//$dbh = null;
+//} catch (PDOException $e) {
+//print "Error!: " . $e->getMessage() . "<br/>";
+//die();
+//}
+
+// Opdracht 4
+//try {
+//foreach($dbh->query('SELECT * FROM leefgebied') as $row) {
+//    print "<li>" .$row['omschrijving'] ."</li>";
+//}
+//$dbh = null;
+//} catch (PDOException $e) {
+//print "Error!: " . $e->getMessage() . "<br/>";
+//die();
+//}
+
+// Opdracht 6
+//try {
+//    foreach($dbh->query('SELECT * FROM aap join leefgebied join aap_has_leefgebied') as $row) {
+//        //print_r($row);
+//        print "<li>" .$row['soort'] ."-" .$row['omschrijving'] ."</li>";
+//}
+//    $dbh = null;
+//} catch (PDOException $e) {
+//    print "Error!: " . $e->getMessage() . "<br/>";
+//    die();
+//}
 ?>
 
 <!DOCTYPE html>
@@ -36,6 +70,14 @@ include_once 'db.php';
     <div class="row justify-content-center">
         <div>
             <img src="img/monkey_swings.png">
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div>
+            <form action="toevoegen.php" method="post">
+                <input type="text" name="omschrijving" placeholder="Leefgebied">
+                <input type="submit" value="Opslaan">
+            </form>
         </div>
     </div>
     <br>
