@@ -26,8 +26,16 @@
           <option name="url" value="https://github.com/rtkm99/RadiostationToets.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/rtkm99/Kraeken" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/rtkm99/Radiostation" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/PhpstormProjects" />
+    <option name="cloneParentDir" value="$USER_HOME$/PhpstormProjects/Radiostation" />
   </component>
 </application>
